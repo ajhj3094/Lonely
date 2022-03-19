@@ -730,6 +730,9 @@ section {
   bottom: 0;
   opacity: 1;
 }
+.portfolio .portfolio-wrap:hover img {
+
+}
 .portfolio .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
   top: calc(50% - 48px);
