@@ -670,6 +670,8 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  box-shadow: 0px 2px 6px rgb(0 0 0 / 20%);
+  border-radius: 15px;
 }
 .portfolio .portfolio-wrap::before {
   content: "";
@@ -692,6 +694,8 @@ section {
   text-align: center;
   z-index: 3;
   transition: all ease-in-out 0.3s;
+  /* change */
+  margin-top: 65px;
 }
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
@@ -712,11 +716,13 @@ section {
   z-index: 3;
   position: absolute;
   transition: all ease-in-out 0.3s;
+  /* change */
+  margin-bottom: 20px;
 }
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
   margin: 0 2px;
-  font-size: 28px;
+  font-size: 60px;
   display: inline-block;
   transition: 0.3s;
 }
